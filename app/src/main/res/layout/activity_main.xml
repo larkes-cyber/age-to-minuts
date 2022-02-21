@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical"
+    android:padding="16dp"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your calculator!"
+        android:textSize="25sp"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/textColor"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Age"
+        android:textSize="25sp"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/white"
+        android:background="@color/ageTextBackgroundColor"
+        android:padding="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="IN MINUTS"
+        android:textSize="25sp"
+        android:layout_marginTop="18dp"
+        android:textColor="@color/textColor"
+        />
+
+    <Button
+        android:id="@+id/textButtonSelectDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:textColor="#929292"
+        android:textSize="20sp"
+        android:text="select date"
+        />
+    <TextView
+        android:id="@+id/selectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#844046"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#B7B7B7"
+        android:text="Selected date"
+        />
+    <TextView
+        android:id="@+id/selectedAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="35sp"
+
+        android:layout_marginTop="36dp"
+        android:textColor="#844046"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="23sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#B7B7B7"
+        android:text="Selected age"
+        />
+<!--ageTextBackgroundColor-->
+</LinearLayout>
