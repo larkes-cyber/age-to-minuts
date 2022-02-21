@@ -21,7 +21,7 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             openDialogDate(button)
         }
-    }
+    }//sdf
     fun openDialogDate(view:View){
         val myCalendar=Calendar.getInstance();
         val year=myCalendar.get(Calendar.YEAR)
